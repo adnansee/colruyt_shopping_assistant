@@ -16,6 +16,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -46,6 +47,18 @@ public class Shop_List extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.list_menu,menu);
 
+        MenuItem item = menu.getItem(0);
+
+/*        if (item.getItemId() == R.id.action_add_list) {
+            ImageView imageView;
+            imageView = new ImageView();
+            imageView.setMaxHeight(18);
+            imageView.setMaxWidth(18);
+            imageView.setImageResource(R.drawable.listicon);
+
+            item.setActionView(imageView);
+        }*/
+
         return super.onCreateOptionsMenu(menu);
 
 
@@ -54,8 +67,8 @@ public class Shop_List extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        item.setIcon(getResources().getDrawable(R.drawable.listicon));
         switch (item.getItemId()){
-
             case R.id.action_add_list:
                 final EditText itemEditText = new EditText(this);
                 AlertDialog dialog = new AlertDialog.Builder(this)

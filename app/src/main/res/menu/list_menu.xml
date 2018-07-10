@@ -11,6 +11,7 @@
         android:id="@+id/action_add_list"
         android:icon="@drawable/listicon"
         android:title="@string/add_product"
+        app:showAsAction="always"
 
 
         />
