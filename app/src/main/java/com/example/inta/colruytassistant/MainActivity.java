@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        ImageView parkButton = findViewById(R.id.parking1);
+        ImageView parkButton = findViewById(R.id.park);
 
 
         parkButton.setOnClickListener(new View.OnClickListener() {

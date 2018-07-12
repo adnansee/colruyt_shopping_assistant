@@ -11,14 +11,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="COLRUYT SHOPPING ASSISTANT"
+        android:text="@string/app_name"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.082" />
+        app:layout_constraintVertical_bias="0.082"
+        app:fontFamily="@font/bahnschrift"/>
 
     <android.support.v7.widget.AppCompatImageView
         android:id="@+id/shopList"
@@ -29,7 +30,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:src="@drawable/shopping_list"
-        android:text="Shopping List"
+
         android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,18 +46,19 @@
         android:layout_marginTop="8dp"
         android:src="@drawable/go_shopping"
 
-        android:text="Go Shopping"
+
+
         android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.v7.widget.AppCompatImageView
-        android:id="@+id/parking1"
+        android:id="@+id/park"
         android:layout_width="69dp"
         android:layout_height="64dp"
         android:layout_marginBottom="4dp"
-        android:src="@drawable/pki"
+        android:src="@drawable/park"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
          />

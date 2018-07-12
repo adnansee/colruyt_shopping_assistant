@@ -3,5 +3,6 @@
     <string name="add_product">Add item</string>
     <string name="title_activity_shop__list">Shop_List</string>
     <string name="title_activity_go_shop">GoShop</string>
+    <string name="shopping_list">SHOPPING LIST</string>
 
 </resources>
