@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/mainbackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ParkingActivity"
+        >
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:hint="Enter Text Here"
+            android:gravity="center"
+            />
+
+    <Button
+        android:id="@+id/generateqr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:text="CLICK HERE TO generate qr code" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/generateqr"
+            />
+
+    </RelativeLayout>
+

@@ -7,6 +7,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+
+/*
+* This class would handle the RecyclersViews of the Application
+* */
+
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>{
     private String[] mDataset;
 

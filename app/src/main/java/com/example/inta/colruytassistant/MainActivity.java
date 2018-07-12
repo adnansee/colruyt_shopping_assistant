@@ -17,24 +17,16 @@ public class MainActivity extends AppCompatActivity {
         ImageView listButton = findViewById(R.id.shopList);
 
 
+        listButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), Shop_List.class));
 
-
-
-            listButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    startActivity(new Intent(getApplicationContext(), Shop_List.class));
-
-                }
-            });
-
-
+            }
+        });
 
 
         ImageView shopButton = findViewById(R.id.goShop);
-
-
-
 
 
         shopButton.setOnClickListener(new View.OnClickListener() {
@@ -45,7 +37,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        }
+
+        ImageView parkButton = findViewById(R.id.parking1);
+
+
+        parkButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), ParkingActivity.class));
+
+            }
+        });
+
+    }
+
+
 
 
 

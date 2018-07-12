@@ -22,7 +22,8 @@
         <activity
             android:name=".GoShop"
             android:label="@string/title_activity_go_shop"
-            android:theme="@style/NoActionBar"></activity>
+            android:theme="@style/NoActionBar" />
+        <activity android:name=".ParkingActivity"></activity>
     </application>
 
 </manifest>

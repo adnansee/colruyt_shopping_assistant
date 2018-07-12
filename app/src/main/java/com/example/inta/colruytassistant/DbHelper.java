@@ -8,6 +8,11 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import java.util.ArrayList;
 
+/*
+* Database Class which records on device the lists
+* Will be extended to include lists of lists
+* */
+
 public class DbHelper extends SQLiteOpenHelper {
 
     private static final String DB_NAME = "DBLIST";
