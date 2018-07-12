@@ -16,7 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/PopupOverlay" />
+            app:popupTheme="@style/PopupOverlay"
+            android:backgroundTint="@color/colorAccent"/>
 
     </android.support.design.widget.AppBarLayout>
 
@@ -24,10 +25,16 @@
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
+
         android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:srcCompat="@drawable/loc"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/deleteitem"
+        android:elevation="8dp"
+        app:fabSize="normal"/>
 
 </android.support.design.widget.CoordinatorLayout>

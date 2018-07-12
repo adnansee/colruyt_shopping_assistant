@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".GoShop"
-    tools:showIn="@layout/activity_go_shop">
+    tools:showIn="@layout/activity_go_shop"
+
+    android:background="@drawable/mainbackground">
+
+    <ImageView
+        android:id="@+id/shoplayout"
+        android:src="@drawable/laycom1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </android.support.constraint.ConstraintLayout>
